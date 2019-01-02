@@ -7,7 +7,7 @@ import 'package:redux/redux.dart';
 
 void main() => runApp(new ReduxApp());
 
-class ReduxApp extends StatelessWidget {
+class ReduxApp extends StatelessWidget { 
   String title = "Redux";
   final store = new Store<AppState>(
     appReducer,
